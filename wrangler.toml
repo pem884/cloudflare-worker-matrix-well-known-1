@@ -1,7 +1,7 @@
-name = "cloudflare-worker-matrix-well-known"
+name = "cloudflare-worker-matrix-well-known-1"
 compatibility_date = "2023-04-13"
 main = "./src/index.ts"
-# route = { pattern = "franchb.com/.well-known/matrix/*", zone_name = "franchb.com" }
+# route = { pattern = "beetlenest.org/.well-known/matrix/*", zone_name = "beetlenest.org" }
 minify = true
 workers_dev = true
 
@@ -15,4 +15,4 @@ rules = [
 
 
 [vars]
-MATRIX_SERVER_ADDR = "matrix.franchb.com:8443"
+MATRIX_SERVER_ADDR = "matrix.beetlenest.org:8443"
